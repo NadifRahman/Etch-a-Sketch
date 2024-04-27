@@ -1,0 +1,57 @@
+* {
+    font-family: "Roboto";
+    font-weight: 550;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: #0804F7;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: solid ;
+    border-radius: 10px;
+    flex: 0 0 0;
+    
+}
+
+.ultra-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.container {
+    height: 512px;
+    width: 512px;
+    background-color: white;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*might need to change*/
+}
+
+.row {
+    display: flex;
+}
+.pixel {
+    flex: 1 1 0;
+    background-color: white;
+}
+
+#changeSizeBtn {
+    align-self: flex-start;
+}
