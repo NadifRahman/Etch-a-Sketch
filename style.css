@@ -41,11 +41,12 @@ button {
     border: solid;
     display: flex;
     flex-direction: column;
-    align-items: center; /*might need to change*/
+    /*might need to change*/
 }
 
 .row {
     display: flex;
+    flex: 1 1 0;
 }
 .pixel {
     flex: 1 1 0;
